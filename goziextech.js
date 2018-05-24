@@ -1,6 +1,6 @@
     var express = require('express');
     var goziextech = express ();
-    var port = process.env.PORT || 3000;
+    var port = process.env.PORT || 80;
     var bodyParser = require('body-parser');
     //var mongo = require('mongodb');
     var mongoose = require ('mongoose');
