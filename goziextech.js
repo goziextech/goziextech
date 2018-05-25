@@ -1,6 +1,6 @@
     var express = require('express');
     var goziextech = express ();
-    var port = process.env.PORT || 80;
+    var port = process.env.PORT || 3000;
     var bodyParser = require('body-parser');
     //var mongo = require('mongodb');
     var mongoose = require ('mongoose');
@@ -2046,5 +2046,5 @@
      return console.log(err);
      });
 
-    goziextech.listen(80);
+    goziextech.listen(3000);
     console.log('Goziex Tech Server is running on port:' + port);
